@@ -8,55 +8,66 @@
 </head>
 <body>
   <div class="wrap">
+
+    <!-- Header -->
     <header>
       <div class="brand">
         <div class="logo">G</div>
-        <div>
-          <div class="title">Guruji Bengali</div>
+        <div class="brand-info">
+          <h1 class="title">Guruji Bengali</h1>
         </div>
       </div>
-      <div class="whatsupp">
-        <a href="#">Whatsupp Now</a>
-      </div>
+
+      <nav class="whatsapp-nav">
+        <a href="#" class="nav-btn primary">WhatsApp Now</a>
+      </nav>
     </header>
 
+    <!-- Main Content -->
     <main>
+      
+      <!-- Hero / Search Section -->
       <section class="hero">
-        <div class="hero-head">
-          <div class="hero-title">How can we help you?</div>
-        </div>
-        <div class="hero-desc">Search our knowledge base or browse popular topics below.</div>
+        <header class="hero-head">
+          <h2 class="hero-title">How can we help you?</h2>
+          <p class="hero-desc">Search our knowledge base or browse popular topics below.</p>
+        </header>
+
+        <!-- Search -->
         <div class="search-box">
           <input type="text" class="search-input" placeholder="Search help...">
           <button class="search-btn">Search</button>
         </div>
 
+        <!-- Quick Topic Cards -->
         <div class="cards">
-          <div class="card">
+          <article class="card">
             <h4>Account Setup</h4>
             <p>Learn how to create and manage your account.</p>
-          </div>
-          <div class="card">
+          </article>
+          <article class="card">
             <h4>Consultations</h4>
             <p>Book and manage your astrology sessions.</p>
-          </div>
+          </article>
         </div>
 
-        <div class="content-section">
-          <div class="section-title">Frequently Asked Questions</div>
+        <!-- FAQ Section -->
+        <section class="faq-section">
+          <h3 class="section-title">Frequently Asked Questions</h3>
           <div class="faq">
             <div class="faq-item">
               <div class="faq-q"><h5>How do I reset my password?</h5></div>
-              <div class="faq-a">Go to settings → security → reset password.</div>
+              <div class="faq-a">Go to <b>Settings → Security → Reset Password</b>.</div>
             </div>
             <div class="faq-item">
               <div class="faq-q"><h5>Can I cancel a booked consultation?</h5></div>
-              <div class="faq-a">Yes, you can cancel up to 24 hours before the session.</div>
+              <div class="faq-a">Yes, you can cancel up to <b>24 hours</b> before the session.</div>
             </div>
           </div>
-        </div>
+        </section>
       </section>
 
+      <!-- Sidebar -->
       <aside>
         <div class="help-card">
           <h3>Need Quick Help?</h3>
@@ -68,8 +79,10 @@
           <button class="contact-btn">Contact Us</button>
         </div>
       </aside>
+
     </main>
   </div>
+
   <script src="index.js"></script>
 </body>
 </html>
